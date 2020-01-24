@@ -93,7 +93,7 @@ do
 	cd /opt/csharptooling/ && git clone $st
 done
 
-echoh "The following Repositories have been cloned to /opt/csharptooling/:
+echo "The following Repositories have been cloned to /opt/csharptooling/:
 "
 echo $reposList
 }
