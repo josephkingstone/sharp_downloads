@@ -1,32 +1,41 @@
 # sharp_downloads
 This may help automated download of C# Repositories and compilation to use with cobalt_aliases
 
-Usage:
-Be sure that sharptoolsetup.sh and repos.txt are in the same directory.
+## Pre-Requisites<br>
+Install Mono Complete<br>
+*apt install mono-complete*<br>
 
--a  Add Repository To List
--b  Compile Cloned Repositories
--c  Clone Repositories
--h  Help
--r  Remove Repository From List
+Create a folder to store your cloned repos and compiled executables:<br>
 
-Usage Examples:
+*mkdir /opt/csharptooling/<br>
+mkdir /opt/exe/*<br>
 
-#Add Repository To List
-./sharptoolsetup.sh -a repositorytoadd.git
+### Usage:<br>
+Be sure that sharptoolsetup.sh and repos.txt are in the same directory.<br>
+<br>
+-a  Add Repository To List<br>
+-b  Compile Cloned Repositories<br>
+-c  Clone Repositories<br>
+-h  Help<br>
+-r  Remove Repository From List<br>
 
-#Remove Repository From List
-./sharptoolsetup.sh -r repositorytoremove.git
-
-#Clone and Build Repositories
-./sharptoolsetup.sh -cb
-
-
-
-TO DO:
-
-In bash Script:
-
+### Usage Examples:<br>
+<br>
+#Add Repository To List<br>
+./sharptoolsetup.sh -a repositorytoadd.git<br>
+<br>
+#Remove Repository From List<br>
+./sharptoolsetup.sh -r repositorytoremove.git<br>
+<br>
+#Clone and Build Repositories<br>
+./sharptoolsetup.sh -cb<br>
+<br>
+<br>
+<br>
+TO DO:<br>
+<br>
+In bash Script:<br>
+<br>
 https://github.com/GhostPack/Seatbelt <br>
 https://github.com/eladshamir/Internal-Monologue <br>
 https://github.com/djhohnstein/SharpWeb<br>
